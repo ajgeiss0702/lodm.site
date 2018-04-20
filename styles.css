@@ -1,0 +1,86 @@
+body {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.navlogo {
+  border-radius: 50%;
+  /*animation: hoverout 0.3s linear;*/
+  transition: border-radius 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.navlogo:hover {
+  border-radius: 10%;
+  /*animation: hoverin 0.3s linear;*/
+}
+@keyframes hoverin {
+  0% {border-radius: 100%;}
+  100% {border-radius: 25%;}
+}
+@keyframes hoverout {
+  0% {border-radius: 25%;}
+  100% {border-radius: 100%;}
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.posts {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.titlelink {
+  color: black !important;
+}
+.post {
+  background-color: LightGrey;
+  border-radius: 2em;
+  max-width: 60%;
+
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottombuttons {
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.comments {
+  background-color: #EDEDED;
+  max-width: 60%;
+
+  border-radius: 0.5em;
+
+  padding: 2em;
+  padding-top: 1em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comment {
+  border-radius: 0.3em;
+  padding: 0.2em;
+  background-color: #DADADA;
+  text-align: left;
+  margin-top: 0.2em;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding:0;
+}

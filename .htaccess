@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^post/([A-Za-z0-9-]+)/?$ posts.php?post=$1 [NC]
